@@ -16,7 +16,8 @@ class Lamp extends Component {
         
         return (
             <div className="Lamp">
-                <button onClick={this.handleClick}></button>
+                <button onClick={this.handleClick} className={light}>
+             {light.toUpperCase()}</button>
                 <figure className={light} />
             </div>
         );
