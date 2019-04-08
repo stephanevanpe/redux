@@ -5,7 +5,7 @@ import "./App.css";
 import Quote from "./Quote";
 import Quotes from "./Quotes";
 import Lamp from './Lamp';
-
+import NameForm from './formulaire'
 
 
 
@@ -34,6 +34,7 @@ class App extends Component {
           <h1 className="App-title">Simpsons Quotes</h1>
           <Lamp on />
           <Lamp />
+          <NameForm/>
 
         </header>
         <Quote
